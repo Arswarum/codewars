@@ -5,6 +5,3 @@ def is_pangram(s):
         if letter in s.lower():
             return True
     return True
-
-pangram = "The quick, brown fox jumps over the lazy dog!"
-test.assert_equals(is_pangram(pangram), True)
